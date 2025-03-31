@@ -1,13 +1,13 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "serverless.js",
+  "main": "index.js",
   "type": "module",
   "engines":{
     "node": "22.x"
   },
   "scripts": {
-    "start": "node serverless.js"
+    "start": "node index.js"
   },  
   "author": "Adarsh Rakshit",
   "license": "ISC",
