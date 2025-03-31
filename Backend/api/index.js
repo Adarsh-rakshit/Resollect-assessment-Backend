@@ -1,8 +1,8 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import categoryRoutes from './routes/category.route.js';
-import itemRoutes from './routes/item.route.js';
+import categoryRoutes from './routes/category.route';
+import itemRoutes from './routes/item.route';
 
 // Load env variables if not loaded in index.js
 dotenv.config();
