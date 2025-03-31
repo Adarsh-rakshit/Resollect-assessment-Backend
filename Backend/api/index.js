@@ -24,6 +24,7 @@ app.use('/api/items', itemRoutes);
 
 // Root route
 app.get('/favicon.ico', (req, res) => res.status(204));
+app.get('/favicon.png', (req, res) => res.status(204));
 app.get('/', (req, res) => {
     res.send('API is running! Access categories at /api/categories and items at /api/items');
 });
