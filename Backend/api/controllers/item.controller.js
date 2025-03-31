@@ -1,4 +1,4 @@
-import pool from '../db/db';
+import pool from '../db/db.js';
 
 const ItemController = {
   // Get all items with optional filtering

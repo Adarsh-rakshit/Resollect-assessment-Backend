@@ -1,8 +1,8 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import categoryRoutes from './routes/category.route';
-import itemRoutes from './routes/item.route';
+import categoryRoutes from './routes/category.route.js';
+import itemRoutes from './routes/item.route.js';
 
 // Load env variables if not loaded in index.js
 dotenv.config();
@@ -36,6 +36,4 @@ app.use((err, req, res, next) => {
         message: process.env.NODE_ENV === 'development' ? err.message : 'Something went wrong'
     });
 });
-app.listen(3000, () => console.log("Server ready on port 3000."));
-
 export default app;
