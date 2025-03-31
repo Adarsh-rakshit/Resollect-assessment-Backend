@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "main": "serverless.js",
   "type": "module",
+  "engines":{
+    "node": "18.x"
+  },
   "scripts": {
     "start": "node serverless.js"
-  },
+  },  
   "author": "Adarsh Rakshit",
   "license": "ISC",
   "description": "",
